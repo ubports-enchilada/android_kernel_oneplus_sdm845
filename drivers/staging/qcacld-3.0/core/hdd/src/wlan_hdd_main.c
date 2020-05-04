@@ -7600,7 +7600,7 @@ static void hdd_bus_bw_compute_cbk(void *priv)
 		}
 
 		hdd_ipa_set_perf_level(hdd_ctx, tx_packets, rx_packets);
-		hdd_ipa_uc_stat_request(hdd_ctx, 2);
+		//hdd_ipa_uc_stat_request(hdd_ctx, 2);
 	}
 
 	hdd_pld_request_bus_bandwidth(hdd_ctx, tx_packets, rx_packets);
